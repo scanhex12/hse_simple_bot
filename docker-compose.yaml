@@ -1,0 +1,7 @@
+services:
+  bot:
+    build: bot
+    ports:
+      - "31338:31338"
+    volumes:
+      - .:/code
